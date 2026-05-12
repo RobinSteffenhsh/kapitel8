@@ -4,12 +4,13 @@ public class main
     public static void main()
     {
         int summe = 0;
-        for(int i = 1; i <= 20; i++){
+        int og = 10;
+        for(int i = 1; i <= og; i++){
             summe += i;
         }
         
         int mult = 1;
-        for (int i = 1; i <= 10; i++){
+        for (int i = 1; i <= og; i++){
             mult *= i;
         }
         
