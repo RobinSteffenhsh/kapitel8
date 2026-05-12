@@ -5,12 +5,12 @@ public class main
     {
         int summe = 0;
         for(int i = 1; i <= 20; i++){
-            summe = summe + i;
+            summe += i;
         }
         
         int mult = 1;
         for (int i = 1; i <= 10; i++){
-            mult = mult * i;
+            mult *= i;
         }
         
         System.out.println("Summe = " + summe);
