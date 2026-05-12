@@ -12,5 +12,8 @@ public class main
         for (int i = 1; i <= 10; i++){
             mult = mult * i;
         }
+        
+        System.out.println("Summe = " + summe);
+        System.out.println("Mult = " + mult);
     }
 }
