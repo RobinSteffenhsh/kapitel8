@@ -22,3 +22,5 @@ public class main
         System.out.println("Mult = " + mult);
     }
 }
+
+//feature update 1
