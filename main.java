@@ -22,7 +22,7 @@ public class main
         System.out.println("Mult = " + mult);
 
         //feature update 1
-        //feature update 2
+        //feature update 2 r
     }
 }
 
