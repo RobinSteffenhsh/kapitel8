@@ -1,17 +1,20 @@
 
+import java.math.*;
+
 public class main
 {
     public static void main()
     {
         int summe = 0;
-        int obereGrenze = 10;
+        int obereGrenze = 50;
         for(int i = 1; i <= obereGrenze; i++){
             summe += i;
         }
         
-        int mult = 1;
+        BigInteger mult = new BigInteger("1");
         for (int i = 1; i <= obereGrenze; i++){
-            mult *= i;
+            BigInteger tmp = new BigInteger(String.valueOf(i));
+            mult = mult.multiply(tmp); 
         }
         
         System.out.println("Summe = " + summe);
