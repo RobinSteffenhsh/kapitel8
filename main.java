@@ -12,6 +12,7 @@ public class main
         }
         
         BigInteger mult = new BigInteger("1");
+
         for (int i = 1; i <= obereGrenze; i++){
             BigInteger tmp = new BigInteger(String.valueOf(i));
             mult = mult.multiply(tmp); 
