@@ -20,12 +20,18 @@ public class main
         
         System.out.println("Summe = " + summe);
         System.out.println("Mult = " + mult);
+
         
         //Master Update 1
         
         //Master Update 2
         
+
         //Master Update 3
-        
+
+        //feature update 1
+        //feature update 2 r
     }
 }
+
+
